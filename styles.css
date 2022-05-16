@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+button{
+    font-size: 50px;
+    height: 200px;
+    width: 300px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px 100px 0px;
+    gap: 50px;
+    width: 1300px;
+    background-color:darkgray;
+    
+}
+.computer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgray;
+    width: 1300px;
+    height: 100px;
+    color:steelblue;
+    font-size: 40px;
+    font-weight: bold;
+}
